@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="vihttps://github.com/necolas/normalize.css/blob/8.0.1/CHANGELOG.mdewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>JSON</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Сообщение</h1>
+      <form action="" id="add-msg-for" class="mb-3">
+        <div class="mb-3">
+          <input
+            type="text"
+            id="name-inp"
+            class="form-control"
+            placeholder="Имя"
+          />
+        </div>
+        <div class="mb-3">
+          <textarea
+            id="msg-inp"
+            class="form-control"
+            cols="30"
+            rows="4"
+            placeholder="Сообщение"
+          ></textarea>
+        </div>
+        <div>
+          <button id="send-btn" class="btn btn-primary">Отправить</button>
+        </div>
+      </form>
+
+      <ul class="list-group" id="msg-list">
+        <!-- <li class="list-group-item">
+          <h2>Имя</h2>
+          <p class="lead">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. At vitae
+            dicta tempore eaque fugit dolores repellendus facere dolor,
+            consequuntur enim, fugiat autem?
+          </p>
+        </li> -->
+      </ul>
+    </div>
+    <script src="js/index.js"></script>
+  </body>
+</html>
